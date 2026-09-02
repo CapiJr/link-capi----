@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 5, 5, 1) 0%, rgba(0, 43, 255, 1) 100%);
+}
+.logocjr{
+    width: 90%;
+    max-width: 200px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: linear-gradient(to top left, rgba(2, 0, 36, 1) 0%, rgb(255, 3, 3) 0%, rgb(8, 8, 8) 100%);
+}
+main{
+    width: 90%;
+    max-width: 700px;
+    background: rgb(221, 221, 221);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-radius: 12px;
+    p{
+        width:100%;
+        text-shadow: 3px 3px 3px rgba(255, 0, 0, 0.397);
+        text-align: center;
+        color: rgb(14, 13, 13);
+    }
+    P + p{
+        width: 100%;
+        max-width: 250px;
+        margin: auto;
+        background: rgb(253, 2, 2);
+        color:white;
+        border-radius: 15px;
+    }
+}
+.caja-padre{
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+}
+.caja{
+    width: 90%;
+    max-width: 470px;
+    background:rgb(204, 203, 203);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2%;
+    border-radius: 12px;
+    font-size: 25px;
+    img{
+        margin-right: 12px;
+        margin-bottom: -10px;
+    }
+}
+.caja:hover img{
+    filter: invert(1);
+}
+/* TWITCH */
+.twitch{
+    text-align: center;
+    a{
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+}
+.twitch:hover{
+    background: rgb(152, 2, 252);
+    a:hover{
+        color: white;
+    }
+}
+/* YOUTUBE */
+
+.youtube{
+    text-align: center;
+    a{
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+}
+.youtube:hover{
+    background: red;
+    a:hover{
+        color: white;
+    }
+}
+/* DISCORD */
+
+.discord{
+    text-align: center;
+    a{
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+}
+.discord:hover{
+    background: rgb(69, 69, 255);
+    a:hover{
+        color: white;
+    }
+}
+/* KICK */
+
+.kick{
+    text-align: center;
+    a{
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+}
+.kick:hover{
+    background: lime;
+    a:hover{
+        color: white;
+    }
+}
+/* INSTAGRAM */
+
+.instagram{
+    text-align: center;
+    a{
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+}
+.instagram:hover{
+    background: rgb(255, 38, 237);
+    a:hover{
+        color: white;
+    }
+}
+/* PIE DE PAGINA */
+
+.pie{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 10px;
+}
